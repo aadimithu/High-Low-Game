@@ -97,8 +97,8 @@ namespace MyGame
                     {
                         Random random = new Random();
                         bool playAgain = true;
-                        int min = 10;
-                        int max = 20;
+                        int min = 1;
+                        int max = 100;
 
                         int guess;
                         int number;
@@ -173,8 +173,8 @@ namespace MyGame
                         {
                             Random random = new Random();
                             bool playAgain = true;
-                            int min = 20;
-                            int max = 30;
+                            int min = 1;
+                            int max = 1000;
 
                             int guess;
                             int number;
